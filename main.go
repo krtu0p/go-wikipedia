@@ -62,7 +62,7 @@ func main() {
 
     // Set up CORS
     handler := cors.New(cors.Options{
-        AllowedOrigins:   []string{"*"}, // Allow all origins or specify your Ngrok URL
+        AllowedOrigins:   []string{"*"}, // :skull:
         AllowCredentials: true,
     }).Handler(r)
 
@@ -71,3 +71,4 @@ func main() {
         log.Fatal(err)
     }
 }
+
